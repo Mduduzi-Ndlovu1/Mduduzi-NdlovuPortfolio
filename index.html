@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Full-Stack Developer | Mduduzi</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="mailto:mduduzindlovu02@gmail.com"><i class="ri-mail-fill"></i></a>
+        <a href="https://github.com/Mduduzi-Ndlovu1"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/mduduzi-ndlovu/"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">M<span>.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Digital Portfolio</h4>
+          <h1>Full-Stack Web Dev</h1>
+          <p>
+            I'm Mduduzi Ndlovu, a Full-Stack Web Developer with a passion for crafting immersive digital experiences. From pixel-perfect front-end designs that captivate your senses to robust back-end systems that power seamless functionality, I thrive at the intersection of creativity and technology.
+          </p>
+          <button class="btn" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=mduduzindlovu02@gmail.com');">
+            Hire Me Now XD
+          </button>
+          
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi, I’m Mduduzi Ndlovu</h2>
+        <p>
+          I am a skilled and dedicated Full Stack Developer with a strong passion for creating high-quality web applications. With expertise in both front-end and back-end technologies, I specialize in designing seamless, user-centric digital experiences. I thrive in dynamic environments where problem-solving and innovative thinking are essential.
+        </p>
+        <p>
+          My core strengths lie in HTML5, CSS3, JavaScript, and frameworks like React.js for front-end development, alongside Node.js, Express.js, and MongoDB for back-end solutions. I have a deep understanding of API integration, database management (SQL and NoSQL), and responsive design principles, allowing me to create robust and scalable web applications.
+        </p>
+        <p>
+          I am experienced in building applications that prioritize functionality, performance, and user experience. I take pride in my ability to tackle complex challenges, leveraging my creativity and technical proficiency to deliver optimized solutions. Whether working independently or within a team, I am committed to delivering code that is efficient, maintainable, and aligned with industry standards.
+        </p>
+        <h4>
+          My portfolio includes projects ranging from single-page applications to full-fledged e-commerce platforms, showcasing my ability to adapt and excel across various aspects of development. I am constantly evolving my skills, staying updated with the latest industry trends and technologies to ensure that I bring the most innovative solutions to the table.
+        </h4>
+        <div class="about__btns">
+          <a href="assets/Offical CV.pdf" download class="download__btn">
+            Download CV
+          </a>
+          <a href="assets/Cover Letter.pdf" download class="download__btn">
+            Download Cover Letter
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mduduzindlovu02@gmail.com" target="_blank">
+            <i class="ri-mail-fill"></i>
+          </a>
+          <a href="https://github.com/Mduduzi-Ndlovu1"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/mduduzi-ndlovu/"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-pen-nib-line"></i></span>
+        <div>
+          <h4>Design</h4>
+          <p>
+            Every pixel, color, and element should not only be visually appealing but also purposeful. I strive to create designs that not only capture attention but also enhance the overall user experience, ensuring that form seamlessly meets function.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-layout-masonry-line"></i></span>
+        <div>
+          <h4>Development</h4>
+          <p>
+            I'm committed to staying at the forefront of technology, ensuring your digital solutions are both high-performing and cutting-edge. With me, your projects benefit from constant innovation and boundary-pushing for top-notch results.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-checkbox-line"></i></span>
+        <div>
+          <h4>Testing & QA</h4>
+          <p>
+            With a background in Quality Assurance, I grasp the pivotal role QA plays in project success. I meticulously test every element, guaranteeing reliable, secure, and high-performance digital solutions. Think of me as the safeguard ensuring digital presence consistently exceeds user expectations, creating a seamless and trustworthy experience.          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">My Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".web">Web Apps</button>
+          <button class="btn project__btn" data-filter=".game">Games</button>
+          <button class="btn project__btn" data-filter=".design">
+            Designs
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix design">
+          <a href="https://appleclone.webstreams.site">
+            <img src="assets/Apple-clone.PNG" alt="project" />
+
+          </a>
+        </div>
+        <div class="project__card mix design">
+          <a href="https://dalidnyebophotography.webstreams.site">
+            <img src="assets/Dali-port.PNG" alt="project" />
+
+          </a>
+        </div>
+        <div class="project__card mix web">
+          <a href="https://mduduzi-ndlovu1.github.io/weather-site/#/weather?lat=-26.205&lon=28.049722">
+            <img src="assets/weather.PNG" alt="project" />
+          </a>
+          
+        </div>
+        <div class="project__card mix design">
+          <a href="https://aiprompter-3lrj.vercel.app"></a>
+          <img src="assets/ai-pp.PNG" alt="project" />
+        </div>
+
+        <div class="project__card mix web">
+          <a href="https://github.com/Mduduzi-Ndlovu1/FsNoteAPP?tab=readme-ov-file">
+            <img src="assets/notesAPP.png" alt="project" />
+          </a>
+        </div>
+        
+        <div class="project__card mix game">
+          <a href="https://mduduzi-ndlovu1.github.io/Text-based-game/"></a>
+          <img src="assets/project-5 game.PNG" alt="project" />
+        </div>
+        
+      </div>
+    </section>
+
+    
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Me</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Description" />
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Andarson</a></h5>
+          <p>
+            I'm a dedicated web developer with a creative flair and a penchant
+            for turning lines of code into captivating online experiences.
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-mail-fill"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-dribbble-line"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <a href="#">Web Design</a>
+            <a href="#">App Design</a>
+            <a href="#">Photography</a>
+            <a href="#">Videography</a>
+            <a href="#">Web Development</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <div class="footer__links">
+            <a href="#">Contact</a>
+            <a href="#">My Blog</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
