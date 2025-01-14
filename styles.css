@@ -338,12 +338,76 @@ nav {
   gap: 1rem;
   overflow: hidden;
 }
+.project__card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
 
 .project__card img {
   border-radius: 5px;
   cursor: pointer;
   height: 250px;
   object-fit:contain;
+}
+
+.project__card:hover {
+  transform: scale(1.05);
+}
+
+.project__card__container {
+  position: relative;
+}
+
+.project__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 1rem;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  text-align: center;
+}
+
+.project__card:hover .project__info {
+  opacity: 1;
+  transform: translateY(0);
+}
+.project__info p {
+  font-size: 6px; /* Keep the description small */
+  margin: 0 0 10px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.project__links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.project__link {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.project__card__container p {
+  font-size: 1rem;
+}
+
+.project__link:hover {
+  color: #00aced;
+}
+
+.fas.fa-external-link-alt,
+.fab.fa-github {
+  margin-left: 0.5rem;
 }
 
 .service__grid {
